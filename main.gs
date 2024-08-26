@@ -1,5 +1,4 @@
-const token = require('./token');
-const LINE_NOTIFY_TOKEN = token;
+const LINE_NOTIFY_TOKEN = require('./token');
 const LINE_NOTIFY_API = "https://notify-api.line.me/api/notify";
 
 function sendMessage() {
